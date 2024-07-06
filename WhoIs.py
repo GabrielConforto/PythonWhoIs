@@ -2,9 +2,11 @@ import whois
 import time
 import sys
 import os
+
 divider = "---------------------------------------------"
 
 while type !=1 or type !=2:
+    
     print("What kind of information are you looking for?")
     print(divider)
     type = int(input("1-Domain / 2-IP Address"))
@@ -16,6 +18,7 @@ while type !=1 or type !=2:
         domainlookup = whois.whois(domain)
         print(domainlookup)
         sys.exit()
+
     elif type == 2:
         print(divider)
         print("IP lookup")
@@ -30,6 +33,3 @@ while type !=1 or type !=2:
         time.sleep(1.5)
         print(divider)
 
-
-
-        
