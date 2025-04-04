@@ -3,6 +3,7 @@ import time
 import sys
 import os
 
+print("Tool made by: https://github.com/GabrielConforto")
 divider = "---------------------------------------------"
 
 while type !=1 or type !=2:
